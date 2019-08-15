@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Layout from "../components/layout"
+
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>About me</h1>
       <p>
         Lorem ipsum dolor sit amet, error nostro sententiae ea sed, vix
@@ -32,7 +34,7 @@ const AboutPage = () => {
         omittantur vim ut.
       </p>
       <Link to="/contact">Contact me</Link>
-    </div>
+    </Layout>
   )
 }
 

@@ -1,8 +1,10 @@
 import React from "react"
 
+import Layout from "../components/layout"
+
 const ContactPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>Contact Information</h1>
       <h2>
         Hello, I'm Shashank Chikattimala, Sr.Full-Stack Developer living in
@@ -15,7 +17,7 @@ const ContactPage = () => {
       >
         Github
       </a>
-    </div>
+    </Layout>
   )
 }
 
