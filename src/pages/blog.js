@@ -35,7 +35,7 @@ const BlogPage = () => {
             <li key={index} className={blogStyles.post}>
               <h2>{edge.node.frontmatter.title}</h2>
               <span>{edge.node.frontmatter.date}</span>
-              <Link to={`/blog/${edge.node.fields.slug}`}>Read more...</Link>
+              <Link to={`/blog/${edge.node.fields.slug}`}>Read more</Link>
             </li>
           )
         })}
